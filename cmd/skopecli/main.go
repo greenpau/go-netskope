@@ -38,9 +38,9 @@ func init() {
 	app = versioned.NewPackageManager("skopecli")
 	app.Description = "Netskope API Client"
 	app.Documentation = "https://github.com/greenpau/go-netskope/"
-	app.SetVersion(appVersion, "1.0.0")
+	app.SetVersion(appVersion, "1.0.1")
 	app.SetGitBranch(gitBranch, "main")
-	app.SetGitCommit(gitCommit, "906996f")
+	app.SetGitCommit(gitCommit, "6850cab")
 	app.SetBuildUser(buildUser, "")
 	app.SetBuildDate(buildDate, "")
 }
